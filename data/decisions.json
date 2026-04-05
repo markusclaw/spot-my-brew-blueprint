@@ -1,0 +1,45 @@
+{
+  "decisions": [
+    {
+      "id": "dec-001",
+      "title": "Tech Stack: PostgreSQL + Python FastAPI",
+      "owner": "Rafa",
+      "status": "approved",
+      "rationale": "Best fit for rapid development. Familiar, well-documented, strong community support.",
+      "alternatives": ["Node.js/Express", "Go/Gin"],
+      "decidedDate": "2026-04-04",
+      "context": "Backend architecture decision for MVP"
+    },
+    {
+      "id": "dec-002",
+      "title": "Deployment: Cloudflare Pages + Workers",
+      "owner": "Greg",
+      "status": "approved",
+      "rationale": "Fast global CDN, low cost, no vendor lock-in. Proven reliability for similar projects.",
+      "alternatives": ["Vercel", "Railway", "AWS"],
+      "decidedDate": "2026-04-04",
+      "context": "Infrastructure and deployment strategy"
+    },
+    {
+      "id": "dec-003",
+      "title": "MVP Scope: Beer + Ratings + Origins (Web-First)",
+      "owner": "Greg, Rafa",
+      "status": "approved",
+      "rationale": "Ruthlessly scoped to launch in 4-6 weeks. Social, badges, mobile native, monetization deferred.",
+      "alternatives": ["Include social features", "Build mobile app first"],
+      "decidedDate": "2026-04-04",
+      "context": "Product scope and timeline constraint"
+    },
+    {
+      "id": "dec-004",
+      "title": "Frontend: Next.js (TypeScript) with Tailwind CSS",
+      "owner": "Greg",
+      "status": "approved",
+      "rationale": "Fast iteration, excellent SEO, responsive design, modern tooling.",
+      "alternatives": ["React SPA", "Vue.js"],
+      "decidedDate": "2026-04-05",
+      "context": "Frontend framework selection"
+    }
+  ],
+  "createdDate": "2026-04-05"
+}

@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    {
+      "id": "dep-001",
+      "type": "external-service",
+      "name": "Google Maps API",
+      "description": "Location services and maps integration",
+      "criticality": "high",
+      "status": "available",
+      "blocksPhase": null,
+      "notes": "Free tier sufficient for MVP. Upgrade as needed."
+    },
+    {
+      "id": "dep-002",
+      "type": "external-service",
+      "name": "Supabase (PostgreSQL managed)",
+      "description": "Database hosting and management",
+      "criticality": "high",
+      "status": "available",
+      "blocksPhase": null,
+      "notes": "Free tier sufficient. Good uptime SLA."
+    },
+    {
+      "id": "dep-003",
+      "type": "internal-resource",
+      "name": "Initial beer/brewery data",
+      "description": "Manual curation of initial catalog",
+      "criticality": "high",
+      "status": "pending",
+      "blocksPhase": "MVP",
+      "notes": "Team will source from existing resources. Estimated 2-3 weeks effort."
+    },
+    {
+      "id": "dep-004",
+      "type": "infrastructure",
+      "name": "Cloudflare account and setup",
+      "description": "Pages and Workers deployment",
+      "criticality": "high",
+      "status": "available",
+      "blocksPhase": null,
+      "notes": "Greg owns. Ready to go."
+    }
+  ],
+  "createdDate": "2026-04-05"
+}

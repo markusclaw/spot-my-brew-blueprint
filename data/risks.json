@@ -1,0 +1,50 @@
+{
+  "risks": [
+    {
+      "id": "risk-001",
+      "title": "Market Validation Risk",
+      "description": "Are there enough Mexican craft beer enthusiasts to sustain the platform?",
+      "probability": "medium",
+      "impact": "high",
+      "severity": "high",
+      "mitigation": [
+        "Early beta testing with craft beer community",
+        "Validate demand through pre-launch survey",
+        "Partner with local breweries for initial traction"
+      ],
+      "owner": "Greg",
+      "status": "identified"
+    },
+    {
+      "id": "risk-002",
+      "title": "Data Quality & Curation",
+      "description": "Initial beer catalog and location data must be accurate and comprehensive.",
+      "probability": "high",
+      "impact": "medium",
+      "severity": "high",
+      "mitigation": [
+        "Manual curation of MVP data by team",
+        "Community moderation post-launch",
+        "Verification workflows for location data"
+      ],
+      "owner": "Rafa",
+      "status": "identified"
+    },
+    {
+      "id": "risk-003",
+      "title": "Brewery Data Sourcing",
+      "description": "Compiling comprehensive brewery data for Mexico's craft beer scene.",
+      "probability": "high",
+      "impact": "medium",
+      "severity": "medium",
+      "mitigation": [
+        "Partner with major regional craft breweries upfront",
+        "Use existing craft beer resources (Untappd, local guides)",
+        "Community contributions and updates"
+      ],
+      "owner": "Rafa",
+      "status": "identified"
+    }
+  ],
+  "createdDate": "2026-04-05"
+}

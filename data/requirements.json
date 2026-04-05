@@ -1,0 +1,75 @@
+{
+  "requirements": [
+    {
+      "id": "req-001",
+      "category": "Feature",
+      "priority": "P0",
+      "title": "Beer Catalog & Search",
+      "description": "Searchable, filterable database of 500+ craft beers available in Mexico.",
+      "acceptance": [
+        "Users can search by name, style, brewery",
+        "Filter by ABV, style, region, rating",
+        "Fast search performance (<200ms)"
+      ],
+      "phase": "MVP",
+      "status": "draft"
+    },
+    {
+      "id": "req-002",
+      "category": "Feature",
+      "priority": "P0",
+      "title": "Community Ratings",
+      "description": "Users can rate and review beers (1-5 stars + text).",
+      "acceptance": [
+        "Submit rating with optional review text",
+        "Aggregate ratings displayed on beer page",
+        "User can edit/delete own ratings"
+      ],
+      "phase": "MVP",
+      "status": "draft"
+    },
+    {
+      "id": "req-003",
+      "category": "Feature",
+      "priority": "P0",
+      "title": "Where to Buy / Find",
+      "description": "Show locations where beers can be purchased or found.",
+      "acceptance": [
+        "Store/venue locations with lat/lng",
+        "User-contributed location data",
+        "Google Maps integration"
+      ],
+      "phase": "MVP",
+      "status": "draft"
+    },
+    {
+      "id": "req-004",
+      "category": "Feature",
+      "priority": "P0",
+      "title": "Brewery Profiles",
+      "description": "Detailed brewery information and beer lineup.",
+      "acceptance": [
+        "Brewery details: origin, location, founded year",
+        "Links to social media",
+        "List of beers by brewery"
+      ],
+      "phase": "MVP",
+      "status": "draft"
+    },
+    {
+      "id": "req-005",
+      "category": "Feature",
+      "priority": "P1",
+      "title": "User Authentication",
+      "description": "Simple email or GitHub login.",
+      "acceptance": [
+        "Email/password signup",
+        "GitHub OAuth option",
+        "Session management"
+      ],
+      "phase": "MVP",
+      "status": "draft"
+    }
+  ],
+  "createdDate": "2026-04-05"
+}

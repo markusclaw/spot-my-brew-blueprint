@@ -1,0 +1,52 @@
+{
+  "milestones": [
+    {
+      "id": "m-001",
+      "phase": "Phase 0",
+      "name": "Seed Blueprint",
+      "description": "Create and deploy Phase 0 blueprint. Define vision, scope, architecture.",
+      "status": "in-progress",
+      "targetDate": "2026-04-07",
+      "completionDate": null,
+      "deliverables": [
+        "Live blueprint website",
+        "Structured data files",
+        "Team and decision records"
+      ]
+    },
+    {
+      "id": "m-002",
+      "phase": "Phase 1",
+      "name": "MVP Launch",
+      "description": "Build and launch production MVP with beer discovery, ratings, and location data.",
+      "status": "pending",
+      "targetDate": "2026-05-20",
+      "completionDate": null,
+      "deliverables": [
+        "Production Next.js web app",
+        "FastAPI backend",
+        "PostgreSQL database",
+        "500+ beers catalog",
+        "Community ratings",
+        "Location data for top 100 beers"
+      ]
+    },
+    {
+      "id": "m-003",
+      "phase": "Phase 2",
+      "name": "Post-Launch Growth",
+      "description": "Community features, mobile apps, advanced search, and monetization options.",
+      "status": "pending",
+      "targetDate": "2026-09-01",
+      "completionDate": null,
+      "deliverables": [
+        "Community moderation system",
+        "iOS and Android native apps",
+        "Advanced search and recommendations",
+        "Brewery owner portal",
+        "Analytics dashboard"
+      ]
+    }
+  ],
+  "createdDate": "2026-04-05"
+}

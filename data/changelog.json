@@ -1,0 +1,19 @@
+{
+  "changelog": [
+    {
+      "date": "2026-04-05",
+      "version": "0.1.0",
+      "status": "draft",
+      "author": "Markus",
+      "changes": [
+        "Initial Phase 0 (Seed) blueprint creation",
+        "Created core pages: Overview, Vision, Requirements, Architecture, Governance, Roadmap",
+        "Added structured data files: team.json, decisions.json, milestones.json, requirements.json, risks.json, dependencies.json",
+        "Set up Next.js project with Tailwind CSS styling",
+        "Deployed to Cloudflare Pages"
+      ],
+      "notes": "Phase 0 blueprint - skeleton structure. Most pages marked as draft/forming pending team refinement."
+    }
+  ],
+  "createdDate": "2026-04-05"
+}

@@ -1,0 +1,21 @@
+{
+  "team": [
+    {
+      "id": "greg",
+      "name": "Greg Rovelo",
+      "role": "Chief Visionary",
+      "responsibilities": ["Product vision", "Frontend architecture", "Cloudflare deployment", "Design direction"],
+      "status": "active",
+      "joinDate": "2026-04-04"
+    },
+    {
+      "id": "rafa",
+      "name": "Rafa",
+      "role": "Tech Lead",
+      "responsibilities": ["Backend architecture", "Database design", "API development", "Infrastructure"],
+      "status": "active",
+      "joinDate": "2026-04-04"
+    }
+  ],
+  "createdDate": "2026-04-05"
+}
