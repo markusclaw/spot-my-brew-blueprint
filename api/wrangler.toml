@@ -1,0 +1,13 @@
+name = "spotmybrew-api"
+main = "src/index.ts"
+compatibility_date = "2026-04-19"
+
+[vars]
+ENVIRONMENT = "production"
+CORS_ORIGIN = "https://spotmybrew.pages.dev"
+
+# D1 database binding — will be populated after wrangler d1 create
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "spotmybrew-db"
+# database_id = "PLACEHOLDER"

@@ -1,0 +1,19 @@
+name = "spotmybrew"
+type = "javascript"
+account_id = "c60d73bd6bdd2bfa6aba42a117a4b69e"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+name = "spotmybrew"
+
+[[build.upload.rules]]
+type = "CompiledContentType"
+globs = ["**/*.wasm"]
+fallthrough = true
+
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.txt", "**/*.html"]
+fallthrough = true
